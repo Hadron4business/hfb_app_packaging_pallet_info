@@ -34,7 +34,7 @@ dimensions), the number of layers, the units per layer, the pallet height
 and the gross pallet weight. The units on a full pallet are calculated for
 you. Pallet types are kept in a small list under Inventory > Configuration.
 """,
-    'version': "18.0.1.0.1",
+    'version': "17.0.1.0.0",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",

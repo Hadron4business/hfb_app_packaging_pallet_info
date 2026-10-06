@@ -36,4 +36,4 @@ Adds pallet data to Odoo's product packagings and a list of pallet types.
 
 ## Status
 
-Source: client module (Odoo 18); only the pallet part was taken, the pallet type model was renamed and the 'length' spelling fixed. Odoo 18 build.
+Source: client module (Odoo 18); only the pallet part was taken, the pallet type model was renamed and the 'length' spelling fixed. Odoo 17 build.
