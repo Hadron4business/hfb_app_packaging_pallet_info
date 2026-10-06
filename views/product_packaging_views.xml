@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_packaging_form_view_pallet" model="ir.ui.view">
+        <field name="name">product.packaging.form.pallet</field>
+        <field name="model">product.packaging</field>
+        <field name="inherit_id" ref="product.product_packaging_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='qty']/parent::group" position="after">
+                <group name="pallet" string="Pallet">
+                    <group name="pallet_layout">
+                        <field name="pallet_type_id"/>
+                        <field name="layers_per_pallet"/>
+                        <field name="units_per_layer"/>
+                        <field name="units_per_pallet"/>
+                    </group>
+                    <group name="pallet_size">
+                        <field name="pallet_height"/>
+                        <field name="pallet_weight_gross"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_packaging_tree_view_pallet" model="ir.ui.view">
+        <field name="name">product.packaging.list.pallet</field>
+        <field name="model">product.packaging</field>
+        <field name="inherit_id" ref="product.product_packaging_tree_view"/>
+        <field name="arch" type="xml">
+            <field name="barcode" position="after">
+                <field name="pallet_type_id" optional="show"/>
+                <field name="layers_per_pallet" optional="show"/>
+                <field name="units_per_layer" optional="show"/>
+                <field name="units_per_pallet" optional="show"/>
+                <field name="pallet_height" optional="show"/>
+                <field name="pallet_weight_gross" optional="show"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>
