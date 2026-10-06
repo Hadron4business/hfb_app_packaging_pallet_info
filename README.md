@@ -37,3 +37,5 @@ Adds pallet data to Odoo's product packagings and a list of pallet types.
 ## Status
 
 Source: client module (Odoo 18); only the pallet part was taken, the pallet type model was renamed and the 'length' spelling fixed. Odoo 18 build.
+
+Odoo 17 and 18 only. Odoo 19 removed product packagings (`product.packaging`; packagings became units of measure), so there is no port for 19+ (decision 2026-10-06).
