@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hfb_app_packaging_pallet_info
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 07:15+0000\n"
+"PO-Revision-Date: 2026-10-07 07:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__active
+msgid "Active"
+msgstr "Aktywne"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__create_uid
+msgid "Created by"
+msgstr "Utworzone przez"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__create_date
+msgid "Created on"
+msgstr "Data utworzenia"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:product.pallet.type,name:hfb_app_packaging_pallet_info.pallet_type_epal
+msgid "EUR / EPAL (1200 x 800)"
+msgstr "EUR / EPAL (1200 x 800)"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:product.pallet.type,name:hfb_app_packaging_pallet_info.pallet_type_industrial
+msgid "Industrial (1200 x 1000)"
+msgstr "Przemysłowa (1200 x 1000)"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__write_uid
+msgid "Last Updated by"
+msgstr "Ostatnio aktualizowane przez"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__write_date
+msgid "Last Updated on"
+msgstr "Data ostatniej aktualizacji"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__layers_per_pallet
+msgid "Layers per Pallet"
+msgstr "Warstwy na palecie"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,help:hfb_app_packaging_pallet_info.field_product_packaging__units_per_pallet
+msgid "Layers per pallet multiplied by units per layer."
+msgstr "Warstwy na palecie pomnożone przez sztuki na warstwę."
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__length
+msgid "Length [mm]"
+msgstr "Długość [mm]"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,help:hfb_app_packaging_pallet_info.field_product_packaging__units_per_layer
+msgid "Number of units of this packaging in one layer of the pallet."
+msgstr "Liczba sztuk tego opakowania w jednej warstwie palety."
+
+#. module: hfb_app_packaging_pallet_info
+#: model_terms:ir.ui.view,arch_db:hfb_app_packaging_pallet_info.product_packaging_form_view_pallet
+msgid "Pallet"
+msgstr "Paleta"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__pallet_weight_gross
+msgid "Pallet Gross Weight [kg]"
+msgstr "Waga brutto palety [kg]"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__pallet_height
+msgid "Pallet Height [mm]"
+msgstr "Wysokość palety [mm]"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model,name:hfb_app_packaging_pallet_info.model_product_pallet_type
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__pallet_type_id
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__name
+msgid "Pallet Type"
+msgstr "Typ palety"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.actions.act_window,name:hfb_app_packaging_pallet_info.action_product_pallet_type
+#: model:ir.ui.menu,name:hfb_app_packaging_pallet_info.menu_product_pallet_type
+#: model_terms:ir.ui.view,arch_db:hfb_app_packaging_pallet_info.view_product_pallet_type_list
+msgid "Pallet Types"
+msgstr "Typy palet"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model,name:hfb_app_packaging_pallet_info.model_product_packaging
+msgid "Product Packaging"
+msgstr "Opakowanie produktu"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__units_per_layer
+msgid "Units per Layer"
+msgstr "Sztuki na warstwę"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_packaging__units_per_pallet
+msgid "Units per Pallet"
+msgstr "Sztuki na palecie"
+
+#. module: hfb_app_packaging_pallet_info
+#: model:ir.model.fields,field_description:hfb_app_packaging_pallet_info.field_product_pallet_type__width
+msgid "Width [mm]"
+msgstr "Szerokość [mm]"
